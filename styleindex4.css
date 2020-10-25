@@ -1,0 +1,411 @@
+body{
+    height:2283px;
+}
+/*menu*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+#menu-icon{
+   display: none;
+}
+
+
+
+
+ #works{
+    font-family: 'Heebo', sans-serif;;
+    color: #FF6464;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: right;
+    position: absolute;
+    width: 57px;
+    height: 43px;
+    left: 1070px;
+    top: 27px;
+    
+ }
+
+ #blog{
+    position: absolute;
+    width: 106px;
+    height: 43px;
+    left: 1096px;
+    top: 27px;
+    
+    font-family: 'Heebo', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+ }
+
+ #contact{
+    position: absolute;
+    width: 71px;
+    height: 43px;
+    left: 1235px;
+    top: 27px;
+    
+    font-family: 'Heebo', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+ }
+
+/*part1*/
+
+.main{
+    position: absolute;
+    width: 506px;
+    height: 100px;
+    left: 342px;
+    top: 148px;
+
+    font-family: 'Heebo', sans-serif;;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 50px;
+
+    /* Dark Color */
+
+    color: #21243D;
+}
+
+
+.year{
+    position: absolute;
+    width: 62px;
+    height: 25px;
+    left: 347px;
+    top: 280px;
+
+    /* Year */
+
+    background: #FF7C7C;
+    border-radius: 16px;
+ }
+
+ .year span {
+    position: absolute;
+    width: 42px;
+    height: 60px;
+    top: -18px;
+    left: 11px;
+
+    font-family: 'Heebo', sans-serif;;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 60px;
+    /* identical to box height, or 333% */
+
+
+    color: #FFFFFF;
+
+ }
+
+ .text{
+    position: absolute;
+    width: 374px;
+    height: 34px;
+    left: 428px;
+    top: 278px;
+    
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    
+    /* Dark Color */
+    
+    color: #21243D;
+ }
+
+ .p-main{
+    position: absolute;
+    width: 681px;
+    height: 44px;
+    left: 342px;
+    top: 335px;
+    
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    
+    color: #000000;
+    
+ }
+
+ /*part2*/
+
+ h1{
+    position: absolute;
+    width: 506px;
+    height: 45px;
+    left: 346px;
+    top: 939px;
+    
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    /* or 200% */
+    
+    
+    /* Dark Color */
+    
+    color: #21243D;
+ }
+
+ h2{
+    position: absolute;
+    width: 506px;
+    height: 82px;
+    left: 346px;
+    top: 984px;
+    
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+    /* or 250% */
+    
+    
+    /* Dark Color */
+    
+    color: #21243D;
+ }
+
+ .p2 p{
+    position: absolute;
+    width: 677px;
+    height: 48px;
+    left: 346px;
+    top: 1049px;
+    
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    
+    color: #000000;
+ }
+
+ /*section{
+     
+     width: 460px;
+
+ }*/
+
+
+/*social part*/
+.social{
+    position: relative;
+    height: 182px;
+    margin-right: 0;
+   /* width: 1152px;*/
+    width: 800px;
+    background: #FFFFFF;
+    left: 0px;
+    top: 2101px;
+    border-radius: 0px;
+
+ }
+
+ .flex-social{
+    position: relative;
+    left: 566px;
+    top: 51px;
+    display: flex;
+    gap: 42.27px;
+
+}
+
+.social p {
+position: absolute;
+height: 21px;
+left: 578px;
+top: 107px;
+
+font-family: 'Heebo', sans-serif;;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+/* Dark */
+
+color: #21243D;
+}
+
+#img1{
+   position: absolute; width: 681px; height: 460px; left: 342px; top: 425px;
+}
+#img2{
+position: absolute;width: 681px ; height: 460px; left: 342px; top: 1127px;
+}
+#img3{
+   position: absolute;width: 681px ; height: 460px; left: 342px; top: 1614px;   }
+
+/*media query*/
+
+@media only screen and (max-width: 375px) {
+   .main{
+     width: 380px;
+     height: 80px;
+      left: 20px;
+      font-size: 30px;
+      top: 82px;
+
+      
+  }
+  .year{
+  
+   left:28px;
+   top: 214px;
+
+ 
+}
+
+
+
+.text{
+   width: 262px;
+   height: 52px;
+   left: 110px;
+   font-size: 17px;
+   top: 212px;
+
+}
+
+.p-main{
+   width: 339px;
+   height: 96px;
+   top: 289px;
+   left: 18px;
+  
+}
+
+#img1{
+   width:339px; height: 256px; left: 18px; top: 407px;
+}
+
+h1{
+   width: 119px;
+   height: 60px;
+   left: 18px;
+   top: 684px;
+   
+   
+   font-size: 26px;
+   
+}
+
+h2{
+   width: 92px;
+   height: 60px;
+   left: 18px;
+   top: 724px;
+   
+ font-size: 20px;
+  
+}
+
+.p2 p{
+   width: 339px;
+   height: 96px;
+   left: 18px;
+   top: 792px;
+   
+  
+   line-height: 23.5px;
+}
+
+#img2{
+   position: absolute;width: 339px ; height: 256px; left: 18px;    top: 916px;
+
+   }
+   #img3{
+      position: absolute;width: 339px ; height: 257px; left: 18px; top: 1195px;   }
+
+      .social{
+  
+         top: 1510px;
+         width: 320px;
+      
+      }
+      
+      .flex-social{
+         
+         left: 65px;
+      
+      }
+      
+      .social p {
+         
+         left: 80px;
+        
+         }
+      
+         #blog{
+           
+            left: 34px;
+           
+         }
+        
+         #works{
+           
+            left: 30px;
+           
+         }
+        
+         #contact{
+           
+            left: 150px;
+           
+         }
+
+         body{
+            height:1640px;
+        }
+
+        #menu-icon{
+         position: relative;
+         display:initial;
+         width: 40px;
+         height: 40px;
+         left: 345px;
+         top: 10px;
+      }
+   
+      .menu{
+         display: none;
+   
+      }
+
+
+}
