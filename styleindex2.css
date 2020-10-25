@@ -49,6 +49,8 @@ body{
     font-size: 20px;
     line-height: 29px;
     text-align: right;
+    color: black;
+
  }
 
  #contact{
@@ -57,7 +59,8 @@ body{
     height: 43px;
     left: 1235px;
     top: 27px;
-    
+    color: black;
+
     font-family: 'Heebo', sans-serif;;
     font-style: normal;
     font-weight: 500;

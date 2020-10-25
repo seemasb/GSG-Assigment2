@@ -42,6 +42,7 @@ body{
     width: 57px;
     height: 43px;
     left: 1070px;
+    color: black;
     top: 27px;
     
  }
@@ -52,7 +53,8 @@ body{
     height: 43px;
     left: 1096px;
     top: 27px;
-    
+    color: black;
+
     font-family: 'Heebo', sans-serif;;
     font-style: normal;
     font-weight: 500;
@@ -75,6 +77,8 @@ body{
     font-size: 20px;
     line-height: 29px;
     text-align: right;
+    color: black;
+
  }
 
  /*.flex_container{
